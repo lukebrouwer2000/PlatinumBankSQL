@@ -1,0 +1,8 @@
+CREATE TABLE `Bank`.`Transfers` 
+( 
+`dstUserID` INT(11) UNSIGNED NOT NULL, 
+`srcUserID` INT(11) UNSIGNED NOT NULL, 
+`transactionID` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT, 
+`transferValue` INT(11) UNSIGNED NOT NULL, 
+PRIMARY KEY (`transactionID`)
+);
