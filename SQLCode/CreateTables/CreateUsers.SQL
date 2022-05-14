@@ -1,0 +1,8 @@
+CREATE TABLE `Bank`.`Users` 
+( 
+`emailAddress` VARCHAR(60) NOT NULL,
+`hashword` VARBINARY(60), NOT NULL,
+`memberStartDate` DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,
+`userID` INT(11) UNSIGNED NOT NULL,
+PRIMARY KEY (`userID`)
+);
