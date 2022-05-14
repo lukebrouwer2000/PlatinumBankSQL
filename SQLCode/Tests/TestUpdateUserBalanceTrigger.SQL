@@ -1,4 +1,5 @@
 # Check if inserting a User properly triggers the follow-up insertion in the User Balance Table
+# For testing purposes, these password values are not hashed
 INSERT INTO `User`
 (emailAddress, hashword)
 VALUES
